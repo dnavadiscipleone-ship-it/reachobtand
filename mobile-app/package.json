@@ -1,0 +1,33 @@
+{
+  "name": "casual-connect-mobile",
+  "version": "1.0.0",
+  "description": "Mobile app for casual dating",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "expo": "^49.0.0",
+    "expo-location": "^16.1.0",
+    "expo-image-picker": "^14.1.1",
+    "expo-camera": "^13.2.1",
+    "react": "^18.2.0",
+    "react-native": "^0.72.6",
+    "react-native-gesture-handler": "^2.12.1",
+    "react-navigation": "^6.1.7",
+    "react-navigation-native": "^6.1.7",
+    "react-navigation-bottom-tabs": "^6.5.12",
+    "axios": "^1.4.0",
+    "socket.io-client": "^4.5.4",
+    "@react-native-async-storage/async-storage": "^1.19.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "babel-preset-expo": "^9.2.0"
+  },
+  "private": true
+}

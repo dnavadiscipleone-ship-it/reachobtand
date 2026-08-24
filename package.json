@@ -1,16 +1,15 @@
 {
-  "name": "vehicle-tow-tracker",
+  "name": "casual-connect",
   "version": "1.0.0",
-  "description": "Real-time vehicle tow tracking and location application",
+  "description": "Location-based casual dating app for singles",
   "main": "server/index.js",
   "scripts": {
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "dev": "concurrently \"npm run server\" \"npm run mobile\"",
     "server": "cd server && node index.js",
-    "client": "cd client && npm run dev",
-    "build": "cd client && npm run build",
-    "install:all": "npm install && cd client && npm install && cd ../server && npm install"
+    "mobile": "cd mobile-app && npm start",
+    "install:all": "npm install && cd server && npm install && cd ../mobile-app && npm install"
   },
-  "keywords": ["tow", "tracking", "vehicle", "location"],
+  "keywords": ["dating", "casual", "location", "singles"],
   "author": "dnavadiscipleone@gmail.com",
   "license": "MIT"
 }
