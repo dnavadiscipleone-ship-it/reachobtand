@@ -14,7 +14,7 @@ import {
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import axios from 'axios';
 
-const API_URL = 'http://192.168.1.100:5000/api'; // Change this to your computer's IP
+const API_URL = 'http://192.168.1.181:5000/api';
 
 interface Customer {
   id: string;

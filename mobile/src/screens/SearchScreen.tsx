@@ -14,7 +14,7 @@ import {
 import axios from 'axios';
 import { useNavigation } from '@react-navigation/native';
 
-const API_URL = 'http://192.168.1.100:5000/api'; // Change this to your computer's IP
+const API_URL = 'http://192.168.1.181:5000/api';
 
 interface Vehicle {
   id: string;
